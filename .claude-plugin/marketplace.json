@@ -1,0 +1,20 @@
+{
+  "name": "guetteman",
+  "owner": {
+    "name": "Luis Güette"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for PHP / Laravel development"
+  },
+  "plugins": [
+    {
+      "name": "laravel",
+      "source": "./plugins/laravel",
+      "description": "Tools for Laravel development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Luis Güette"
+      }
+    }
+  ]
+}

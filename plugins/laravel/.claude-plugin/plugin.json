@@ -1,0 +1,8 @@
+{
+  "name": "laravel",
+  "version": "1.0.0",
+  "description": "A set of tools for Laravel developers",
+  "author": {
+    "name": "Luis Güette"
+  }
+}

@@ -16,13 +16,6 @@ A Claude Code plugin for PHP and Laravel developers. This plugin provides agents
 
 ### Agents
 
-#### laravel-simplifier
-A code simplification agent that refines PHP/Laravel code for clarity, consistency, and maintainability while preserving functionality.
-
-```
-"Review recent changes using the laravel-simplifier agent"
-```
-
 #### laravel-architect
 A senior Laravel software architect following Taylor Otwell's philosophy: *"Code should be like Kenny from South Park, not T1000 from Terminator—disposable, easy to change."*
 
