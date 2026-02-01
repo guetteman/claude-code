@@ -107,28 +107,7 @@ I encourage you to:
 
 3. **Delete rules** you disagree with. If a rule doesn't make sense for your project, remove it.
 
-4. **Create your own rules** based on patterns you want to enforce. Rules are simple markdown files with a `paths` frontmatter to specify which files they apply to:
-
-```markdown
----
-paths:
-  - "**/*.php"
----
-
-## My Custom Rule
-
-Description of what this rule enforces.
-
-**Preferred:**
-```php
-// Good example
-```
-
-**Avoid:**
-```php
-// Bad example
-```
-```
+4. **Create your own rules** based on patterns you want to enforce. 
 
 5. **Share your rules** with your team by committing them to your project's `.claude/rules` directory.
 
