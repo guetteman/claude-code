@@ -6,10 +6,10 @@ A Claude Code plugin for PHP and Laravel developers. This plugin provides agents
 
 ```bash
 # Add the marketplace
-/plugin marketplace add guetteluis/claude-code
+/plugin marketplace add guetteman/claude-code
 
 # Install the plugin
-/plugin install laravel@guetteluis
+/plugin install laravel@guetteman
 ```
 
 ## Features
@@ -82,17 +82,17 @@ To use the rules, you need to manually copy them to your project's `.claude/rule
 
 ```bash
 # Copy all rules to your project
-cp -r ~/.claude/plugins/laravel/rules/* /path/to/your/project/.claude/rules/
+cp -r ~/.claude/plugins/marketplaces/guetteman/plugins/laravel/rules/* /path/to/your/project/.claude/rules/
 
 # Or copy specific categories
-cp -r ~/.claude/plugins/laravel/rules/laravel/* /path/to/your/project/.claude/rules/laravel/
-cp -r ~/.claude/plugins/laravel/rules/pest/* /path/to/your/project/.claude/rules/pest/
+cp -r ~/.claude/plugins/marketplaces/guetteman/plugins/laravel/rules/laravel/* /path/to/your/project/.claude/rules/laravel/
+cp -r ~/.claude/plugins/marketplaces/guetteman/plugins/laravel/rules/pest/* /path/to/your/project/.claude/rules/pest/
 ```
 
 Alternatively, you can symlink the rules directory if you want to keep them in sync:
 
 ```bash
-ln -s ~/.claude/plugins/laravel/rules /path/to/your/project/.claude/rules
+ln -s ~/.claude/plugins/marketplaces/guetteman/plugins/laravel/rules /path/to/your/project/.claude/rules
 ```
 
 ## Create Your Own Rules
