@@ -32,7 +32,6 @@ integrations:
   forge: {  }
 ```
 - Run `herd init`
-- Run `herd link {{project_name}} --secure`
 
 ## Notes
 - If the user hasn't paid for Laravel Herd, DON'T add the services section to the `herd.yml` file.
