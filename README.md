@@ -32,6 +32,12 @@ Reviews Laravel code for security vulnerabilities and best practices.
 #### /code-review
 Reviews code against all project rules. Spawns parallel agents to check each rule file and provides a summary of violations with fix suggestions.
 
+#### /create-new-project
+Creates a new Laravel project from scratch with Herd integration. Guides you through project setup including authentication preferences and Herd configuration.
+
+#### /start-new-feature
+Starts a new feature in a dedicated branch following the `feature/<feature-name>` convention. Activates plan mode, conducts an interview, validates the plan with architect, TDD, and security agents, then saves the spec to `specs/`.
+
 #### /interview
 Conducts in-depth technical interviews about implementation plans before coding begins. Helps refine and validate your approach by exploring edge cases, failure modes, and tradeoffs.
 
