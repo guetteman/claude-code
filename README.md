@@ -41,6 +41,12 @@ Starts a new feature in a dedicated branch following the `feature/<feature-name>
 #### /interview
 Conducts in-depth technical interviews about implementation plans before coding begins. Helps refine and validate your approach by exploring edge cases, failure modes, and tradeoffs.
 
+#### /copy-rules
+Copies the plugin's rules to your project's `.claude/rules` directory. A convenient alternative to manually copying or symlinking rules.
+
+#### /init-project
+Initializes your Laravel project with a Makefile, PHPStan (via Larastan), Pint, and Rector configuration files. Runs formatting and static analysis after setup.
+
 ### Rules
 
 This plugin includes opinionated coding rules organized by category:
@@ -69,6 +75,7 @@ This plugin includes opinionated coding rules organized by category:
 - `minimize-refresh-usage` - Minimize model refresh calls
 - `mocking` - Mocking best practices
 - `test-file-location` - Test file organization
+- `use-pest-functions` - Use Pest standalone functions instead of `$this->` method calls
 - `use-test-function` - Use `test()` over `it()`
 
 #### PHP Rules
